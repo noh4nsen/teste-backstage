@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "teste-react-ssr-templace"
+  description: "teste"
+  annotations:
+    github.com/project-slug: noh4nsen/teste-backstage
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "guests"
